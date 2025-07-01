@@ -22,10 +22,10 @@ class MOSFET:
         :return: Drain current (A)
         """
         if Vgs < self.Vth:
-            # Cut-off region
+            # Cut-off region 
             return 0.0
         elif Vds < (Vgs - self.Vth):
-            # Linear region
+            # Linear region 
             return self.k * ((Vgs - self.Vth) * Vds - 0.5 * Vds**2) * (1 + self.lambda_param * Vds)
         else:
             # Saturation region

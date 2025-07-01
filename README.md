@@ -2,6 +2,10 @@
 
 This Python script simulates and plots the output characteristics (Id vs Vds) of a MOSFET for different gate-to-source voltages (Vgs).
 
+## Output Example
+
+![MOSFET Output Characteristics](mosfet_characteristics.png)
+
 ## Features
 - Models MOSFET operation in cut-off, linear, and saturation regions
 - Configurable parameters: Vth, k, λ
